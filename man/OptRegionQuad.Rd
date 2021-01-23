@@ -113,7 +113,7 @@ Hence, this version does not rely on any normality assumption on the data.
 Enrique del Castillo \email{exd13@psu.edu},
 Peng Chen \email{pfc5098@psu.edu},
 Adam Meyers \email{akm5733@psu.edu},
-John Hunt \email{J.Hunt@exeter.ac.uk} and
+John Hunt \email{J.Hunt@westernsydney.edu.au} and
 James Rapkin \email{jr297@exeter.ac.uk}.
 }
 
