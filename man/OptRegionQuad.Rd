@@ -4,10 +4,21 @@
 \alias{OptRegionQuad}
 \title{Confidence region for optima of quadratic polynomial models (2 regressors)}
 \usage{
-OptRegionQuad(X, y, nosim = 200, alpha = 0.05, LB, UB,
-  triangularRegion = FALSE, vertex1 = NULL, vertex2 = NULL,
-  maximization = TRUE, xlab = "Protein eaten, mg",
-  ylab = "Carbohydrates eaten, mg", outputPDFFile = "CRplot.pdf")
+OptRegionQuad(
+  X,
+  y,
+  nosim = 200,
+  alpha = 0.05,
+  LB,
+  UB,
+  triangularRegion = FALSE,
+  vertex1 = NULL,
+  vertex2 = NULL,
+  maximization = TRUE,
+  xlab = "Protein eaten, mg",
+  ylab = "Carbohydrates eaten, mg",
+  outputPDFFile = "CRplot.pdf"
+)
 }
 \arguments{
 \item{X}{nx2 matrix with the values of the 2 regressors (experimental factors)

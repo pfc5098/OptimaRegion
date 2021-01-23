@@ -4,9 +4,19 @@
 \alias{GloptiPolyRegion}
 \title{Confidence region for optima of up to cubic polynomial models (up to 5 regressors)}
 \usage{
-GloptiPolyRegion(X, y, degree, lb, ub, B = 200, alpha = 0.05,
-  maximization = TRUE, axes_labels = NULL,
-  outputPDFFile = "CRplot.pdf", verbose = TRUE)
+GloptiPolyRegion(
+  X,
+  y,
+  degree,
+  lb,
+  ub,
+  B = 200,
+  alpha = 0.05,
+  maximization = TRUE,
+  axes_labels = NULL,
+  outputPDFFile = "CRplot.pdf",
+  verbose = TRUE
+)
 }
 \arguments{
 \item{X}{numeric matrix of shape (N, k); N is the sample size; k is the
@@ -55,8 +65,8 @@ Upon completion, a figure displaying the confidence region of the true optimum
         }
 }
 \description{
-Computes and displays an approximated (1 - alpha) confidence region (CR) for
-the bound-constrained maximum of a polynomial regression model in up to cubic order
+Computes and displays an approximated 100(1 - alpha)\% confidence region (CR) for
+the bound-constrained optimum of a fitted polynomial regression model of up to cubic order
 with up to 5 controllable factors
 \insertCite{DelCastilloCR}{OptimaRegion}.
 }

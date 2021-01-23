@@ -1,7 +1,7 @@
 #' Confidence region for optima of up to cubic polynomial models (up to 5 regressors)
 #'
-#' Computes and displays an approximated (1 - alpha) confidence region (CR) for
-#' the bound-constrained maximum of a polynomial regression model in up to cubic order
+#' Computes and displays an approximated 100(1 - alpha)\% confidence region (CR) for
+#' the bound-constrained optimum of a fitted polynomial regression model of up to cubic order
 #' with up to 5 controllable factors
 #' \insertCite{DelCastilloCR}{OptimaRegion}.
 #'
@@ -65,7 +65,7 @@
 #' }
 #' @export
 GloptiPolyRegion <- function(X, y, degree, lb, ub, B = 200, alpha = 0.05,
-                             maximization = TRUE, axes_labels = NULL, 
+                             maximization = TRUE, axes_labels = NULL,
                              outputPDFFile = "CRplot.pdf", verbose = TRUE) {
   X <- data.frame(X)
   y <- data.frame(y)

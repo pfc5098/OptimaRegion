@@ -4,11 +4,23 @@
 \alias{OptRegionTps}
 \title{Confidence region for optima of Thin Plate Spline Models (2 regressors)}
 \usage{
-OptRegionTps(X, y, lambda = 0.04, nosim = 1000, alpha = 0.05, LB, UB,
-  triangularRegion = FALSE, vertex1 = NULL, vertex2 = NULL,
-  maximization = TRUE, xlab = "Protein eaten, mg",
-  ylab = "Carbohydrate eaten, mg", outputPDFFile = "CRplot.pdf",
-  outputOptimaFile = "Optima.txt")
+OptRegionTps(
+  X,
+  y,
+  lambda = 0.04,
+  nosim = 1000,
+  alpha = 0.05,
+  LB,
+  UB,
+  triangularRegion = FALSE,
+  vertex1 = NULL,
+  vertex2 = NULL,
+  maximization = TRUE,
+  xlab = "Protein eaten, mg",
+  ylab = "Carbohydrate eaten, mg",
+  outputPDFFile = "CRplot.pdf",
+  outputOptimaFile = "Optima.txt"
+)
 }
 \arguments{
 \item{X}{nx2 matrix with the values of the 2 regressors (experimental factors)
