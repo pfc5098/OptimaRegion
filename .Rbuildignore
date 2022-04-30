@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
+^OptimaRegion\.Rcheck$
+^OptimaRegion.*\.tar\.gz$
+^OptimaRegion.*\.tgz$
